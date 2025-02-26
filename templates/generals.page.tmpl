@@ -1,0 +1,88 @@
+{{template "base" .}}
+
+{{define "content"}}
+<div class="container">
+
+
+    <div class="row">
+        <div class="col">
+            <img src="/static/images/generals-quarters.png" class="img-fluid img-thumbnail mx-auto d-block room-image"
+                alt="room image">
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center mt-4">General's Quarters</h1>
+            <p>
+                Your home away form home, set on the majestic waters of the Atlantic Ocean, this will be a vacation
+                to remember.
+                Your home away form home, set on the majestic waters of the Atlantic Ocean, this will be a vacation
+                to remember.
+                Your home away form home, set on the majestic waters of the Atlantic Ocean, this will be a vacation
+                to remember.
+                Your home away form home, set on the majestic waters of the Atlantic Ocean, this will be a vacation
+                to remember.
+                Your home away form home, set on the majestic waters of the Atlantic Ocean, this will be a vacation
+                to remember.
+                Your home away form home, set on the majestic waters of the Atlantic Ocean, this will be a vacation
+                to remember.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col text-center">
+
+            <a id="check-availability-button" href="#!" class="btn btn-success">Check Availability</a>
+
+        </div>
+    </div>
+
+
+
+
+</div>
+{{end}}
+
+{{define "js"}}
+    <script>
+        document.getElementById("check-availability-button").addEventListener("click", function () {
+            let html = `
+                <form id="check-availability-form" action="" method="post" novalidate class="needs-validation">
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-row" id="reservation-dates-modal">
+                                <div class="col">
+                                    <input disabled required id="start" class="form-control" type="text" name="start" placeholder="Arrival">
+                                </div>
+                                <div class="col">
+                                    <input disabled required id="end" class="form-control" type="text" name="end" placeholder="Depature">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                `
+            attention.custom({
+                msg: html,
+                title: "Choose your dates",
+                callback: function(result){
+                    // fetch sends asynchronous HTTP request to hte server at the /search-availability-json endpoint
+                    fetch('/search-availability-json')
+                        //handling the response from the server and converting it into a JS object
+                        .then(response => response.json())
+                        //a callback that runs once the response is successfully parsed as JSON
+                        .then(data => {
+                            console.log(data);
+                            console.log(data.ok);
+                            console.log(data.message);
+                        });
+                },
+            });
+        })
+    </script>
+{{end}}

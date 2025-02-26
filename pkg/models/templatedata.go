@@ -6,8 +6,8 @@ type TemplateData struct {
 	IntMap    map[string]int
 	FloatMap  map[string]float32
 	Data      map[string]interface{}
-	//CFRSToken is a cross-site request forgery token
-	CFRSToken string
+	//CSRFoken is a cross-site request forgery token
+	CSRFToken string
 	Flash     string
 	Warning   string
 	Error     string
