@@ -127,6 +127,18 @@
                 confirmButtonText: confirmationButtonText
             })
         }
+        {{with .Error}}
+            notify("{{.}}", "error");
+        {{end}}
+
+        {{with .Flash}}
+            notify("{{.}}", "success");
+        {{end}}
+
+        {{with .Warning}}
+            notify("{{.}}", "warning");
+        {{end}}
+
 
         //Promt is a JavaScript module for all alerts, notifications and custom popup dialogs
         function Prompt() {
