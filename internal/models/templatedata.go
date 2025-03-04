@@ -1,5 +1,7 @@
 package models
 
+import "github.com/kathappiness/bookings/internal/forms"
+
 // TemplateData holds dataset from handlers to templates
 type TemplateData struct {
 	StringMap map[string]string
@@ -11,4 +13,5 @@ type TemplateData struct {
 	Flash     string
 	Warning   string
 	Error     string
+	Form      *forms.Form
 }
