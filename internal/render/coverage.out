@@ -1,0 +1,25 @@
+mode: set
+github.com/kathappiness/bookings/internal/render/render.go:23.40,25.2 1 1
+github.com/kathappiness/bookings/internal/render/render.go:28.84,34.2 5 1
+github.com/kathappiness/bookings/internal/render/render.go:37.105,40.18 2 1
+github.com/kathappiness/bookings/internal/render/render.go:40.18,42.3 1 0
+github.com/kathappiness/bookings/internal/render/render.go:42.8,44.3 1 1
+github.com/kathappiness/bookings/internal/render/render.go:46.2,47.9 2 1
+github.com/kathappiness/bookings/internal/render/render.go:47.9,50.3 1 1
+github.com/kathappiness/bookings/internal/render/render.go:54.2,57.16 4 1
+github.com/kathappiness/bookings/internal/render/render.go:57.16,59.3 1 0
+github.com/kathappiness/bookings/internal/render/render.go:61.2,62.16 2 1
+github.com/kathappiness/bookings/internal/render/render.go:62.16,65.3 2 0
+github.com/kathappiness/bookings/internal/render/render.go:66.2,66.12 1 1
+github.com/kathappiness/bookings/internal/render/render.go:69.67,75.16 3 1
+github.com/kathappiness/bookings/internal/render/render.go:75.16,77.3 1 0
+github.com/kathappiness/bookings/internal/render/render.go:79.2,79.29 1 1
+github.com/kathappiness/bookings/internal/render/render.go:79.29,84.17 3 1
+github.com/kathappiness/bookings/internal/render/render.go:84.17,86.4 1 0
+github.com/kathappiness/bookings/internal/render/render.go:88.3,89.17 2 1
+github.com/kathappiness/bookings/internal/render/render.go:89.17,91.4 1 0
+github.com/kathappiness/bookings/internal/render/render.go:92.3,92.23 1 1
+github.com/kathappiness/bookings/internal/render/render.go:92.23,94.18 2 1
+github.com/kathappiness/bookings/internal/render/render.go:94.18,96.5 1 0
+github.com/kathappiness/bookings/internal/render/render.go:98.3,98.21 1 1
+github.com/kathappiness/bookings/internal/render/render.go:100.2,100.21 1 1
