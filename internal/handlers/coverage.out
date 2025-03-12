@@ -1,0 +1,22 @@
+mode: set
+github.com/kathappiness/bookings/internal/handlers/handlers.go:24.47,28.2 1 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:31.33,33.2 1 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:36.67,42.2 3 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:45.68,55.2 5 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:58.74,65.2 4 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:68.78,70.16 2 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:70.16,73.3 2 0
+github.com/kathappiness/bookings/internal/handlers/handlers.go:75.2,89.19 7 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:89.19,97.3 4 0
+github.com/kathappiness/bookings/internal/handlers/handlers.go:99.2,100.66 2 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:105.75,107.2 1 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:110.79,114.2 3 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:122.79,128.16 3 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:128.16,130.3 1 0
+github.com/kathappiness/bookings/internal/handlers/handlers.go:131.2,132.14 2 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:136.71,138.2 1 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:141.69,143.2 1 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:146.70,148.2 1 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:151.81,153.9 2 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:153.9,157.3 3 1
+github.com/kathappiness/bookings/internal/handlers/handlers.go:159.2,164.4 4 1
